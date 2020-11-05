@@ -28,7 +28,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_LOWER] = LAYOUT_planck_grid(
         _______, FI_EXLM, FI_DQUO, XY_EURO, FI_SLSH, FI_LABK, FI_LPRN, FI_LBRC, XY_LCBR, FI_PLUS, FI_ASTR, KC_DEL,
         _______, FI_QUES, FI_QUOT, FI_DLR,  XY_BSLS, FI_RABK, FI_RPRN, FI_RBRC, XY_RCBR, FI_MINS, FI_PERC, FI_HASH,
-        _______, FI_CIRC, _______, _______, _______, _______, _______, _______, _______, FI_EQL,  FI_TILD, _______,
+        _______, FI_CIRC, _______, _______, _______, _______, _______, _______, FI_AT,   FI_EQL,  FI_TILD, _______,
         _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______
     ),
     [_RAISE] = LAYOUT_planck_grid(
